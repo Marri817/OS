@@ -1,9 +1,9 @@
 # UFCFWK-15-2 Operating Systems - Worksheet 1
 ## An Echo of Assembler
 
-**Student:** [Your Name]  
+**Student:** Ali Al Marri
 **Date:** December 4, 2025  
-**GitHub Repository:** [Your Repository URL]
+**GitHub Repository:** https://github.com/Marri817/OS
 
 ---
 
@@ -120,12 +120,10 @@ asm_main:
 5. **Output:** Calls `print_int` from asm_io library to display result
 6. **Cleanup:** Restores registers, returns 0 to C
 
-**Screenshot:**
-```
-$ ./task1
-35
-```
+**Screenshots**
+
 ![task1 error](screenshots/task1.png)
+
 ---
 
 ### Task 1.2: Interactive Addition (Slide 22)
@@ -198,12 +196,7 @@ asm_main:
 4. **Formatted Output:** Prints descriptive message with both inputs and sum
 
 **Screenshot:**
-```
-$ ./task1_2
-Enter a number: 42
-Enter another number: 58
-You entered 42 and 58, the sum is 100
-```
+
 ![task1_2 error](screenshots/task1_2.png)
 
 ---
@@ -247,23 +240,11 @@ print_loop:
 - **Validation:** Checks bounds before executing loop
 
 **Screenshot:**
-```
-$ ./task2_1
-Enter your name: Alice
-Enter number of times to print (50-100): 52
-Welcome, Alice!
-Welcome, Alice!
-... (52 times total)
-```
+
 ![task2_1 ](screenshots/task2_1.png)
 
 **Screenshot (Error):**
-```
-$ ./task2_1
-Enter your name: Bob
-Enter number of times to print (50-100): 30
-Error: Number must be between 50 and 100!
-```
+
 ![task2_1 error](screenshots/task2_1_error.png)
 
 ---
@@ -331,10 +312,7 @@ sum_loop:
 4. **Result:** Sum of 1+2+...+100 = 5050
 
 **Screenshot:**
-```
-$ ./task2_2
-5050
-```
+
 ![task2_2 error](screenshots/task2_2.png)
 
 **Mathematical Verification:**
@@ -390,21 +368,11 @@ sum_loop:
 - **Error Handling:** Displays error message for invalid input
 
 **Screenshot (Valid Range):**
-```
-$ ./task2_3
-Enter start index (1-100): 1
-Enter end index (1-100): 10
-Sum of range [1-10]: 55
-```
+
 ![task2_3](screenshots/task2_3.png)
 
 **Screenshot (Invalid Range):**
-```
-$ ./task2_3
-Enter start index (1-100): 50
-Enter end index (1-100): 30
-Error: Invalid range! (must be 1 <= start <= end <= 100)
-```
+
 ![task2_3 error](screenshots/task2_3_error.png)
 
 **Verification (1-10):**
